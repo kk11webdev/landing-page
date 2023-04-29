@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.header {
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.left {
+    border: solid black;
+    display: flex;
+}
+
+.right {
+    border: solid black;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
