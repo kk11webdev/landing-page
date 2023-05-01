@@ -111,17 +111,15 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: bolder;
+    color: #1F2937
 }
 
 .item-container {
-    border: solid black;
     display: flex;
     gap: 50px;
-    
 }
 
 .item {
-    border: solid black;
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -132,7 +130,8 @@ a {
 }
 
 .image {
-    border: solid #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
     width: 150px;
     height: 150px;
     display: flex;
