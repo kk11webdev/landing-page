@@ -167,7 +167,6 @@ a {
 }
 
 .container-last {
-    border: solid black;
     display: flex;
     height: 300px;
     padding: 0 130px;
@@ -183,18 +182,19 @@ a {
     padding: 50px 100px;
     justify-content: space-between;
     gap: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
 
 .action-left {
-    border: solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 3px;
+    color: #E5E7EB;
 }
 
 .action-right {
-    border: solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,6 +204,7 @@ a {
 .action-maintext {
     font-size: 20px;
     font-weight: bolder;
+    color: white;
 }
 
 .sign-up-inverse {
