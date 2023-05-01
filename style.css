@@ -5,6 +5,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header styles */
+
 .header {
     display: flex;
     align-items: center;
@@ -38,6 +40,8 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+/* First row of content styles */
 
 .container {
     display: flex;
@@ -97,6 +101,8 @@ a {
     background-color: #6d747d;
 }
 
+/* Second row of content styles */
+
 .container-column {
     display: flex;
     flex-direction: column;
@@ -138,6 +144,8 @@ a {
     flex: none;
 }
 
+/* Third row of content styles */
+
 .container-quote {
     display: flex;
     flex-direction: column;
@@ -164,6 +172,8 @@ a {
     text-align: end;
     color: #1F2937;
 }
+
+/* Last row of content styles */
 
 .container-last {
     display: flex;
@@ -211,6 +221,8 @@ a {
     border: solid white;
 }
 
+/* Footer style */
+
 .footer {
     height: 90px;
     display: flex;
@@ -219,5 +231,3 @@ a {
     color: #E5E7EB;
     background-color: #1F2937;
 }
-
-
