@@ -206,4 +206,12 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
+.footer {
+    border: solid black;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
