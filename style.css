@@ -35,6 +35,11 @@ ul {
     gap: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .container {
     border: solid black;
     display: flex;
@@ -69,6 +74,7 @@ ul {
     border: solid black;
     display: flex;
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .sign-up {
