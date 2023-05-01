@@ -40,7 +40,7 @@ ul {
     height: 400px;
     padding: 0 130px;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .hero-left {
@@ -61,6 +61,7 @@ ul {
 
 .hero-main {
     font-size: 48px;
+    font-weight: bolder;
 }
 
 .hero-secondary {
@@ -94,5 +95,11 @@ ul {
     padding: 0 130px;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
 }
 
