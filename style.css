@@ -111,7 +111,7 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
 }
 
 .item-container {
@@ -127,6 +127,7 @@ a {
     align-items: center;
     text-align: center;
     gap: 8px;
+    color: #1F2937;
 }
 
 .image {
@@ -139,7 +140,6 @@ a {
 }
 
 .container-quote {
-    border: solid black;
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -147,6 +147,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    background-color: #E5E7EB;
 }
 
 .quote {
@@ -154,6 +155,7 @@ a {
     width: 680px;
     font-style: italic;
     font-weight: lighter;
+    color: #1F2937;
 }
 
 .author {
@@ -161,6 +163,7 @@ a {
     width: 680px;
     font-weight: bolder;
     text-align: end;
+    color: #1F2937;
 }
 
 .container-last {
