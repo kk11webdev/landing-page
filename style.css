@@ -207,14 +207,9 @@ a {
     color: white;
 }
 
-.sign-up-inverse {
-    height: 30px;
-    width: 100px;
-    display: flex;
-    flex: none;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
+.inverse {
+    background-color: none;
+    border: solid white;
 }
 
 .footer {
