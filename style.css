@@ -37,9 +37,10 @@ ul {
 .container {
     border: solid black;
     display: flex;
-    height: 300px;
+    height: 400px;
     padding: 0 130px;
     align-items: center;
+    gap: 40px;
 }
 
 .hero-left {
