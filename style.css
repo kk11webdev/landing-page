@@ -6,19 +6,17 @@ body {
 }
 
 .header {
-    border: solid black;
     display: flex;
     align-items: center;
     padding: 0 130px;
+    background-color: #1F2937;
 }
 
 .left {
-    border: solid black;
     display: flex;
 }
 
 .right {
-    border: solid black;
     display: flex;
     margin-left: auto;
 }
@@ -26,6 +24,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 
 ul {
@@ -41,16 +40,15 @@ a {
 }
 
 .container {
-    border: solid black;
     display: flex;
     height: 400px;
     padding: 0 130px;
     align-items: center;
     gap: 30px;
+    background-color: #1F2937;
 }
 
 .hero-left {
-    border: solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +56,6 @@ a {
 }
 
 .hero-right {
-    border: solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,10 +65,10 @@ a {
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .hero-secondary {
-    border: solid black;
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
@@ -85,19 +82,23 @@ a {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
 }
 
 .placeholder {
     width: 330px;
     height: 130px;
-    border: solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
+    background-color: grey;
 }
 
 .container-column {
-    border: solid black;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -219,6 +220,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
 }
 
 
