@@ -70,7 +70,6 @@ a {
 
 .hero-secondary {
     display: flex;
-    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -89,13 +88,13 @@ a {
 }
 
 .placeholder {
-    width: 330px;
-    height: 130px;
+    width: 480px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
-    background-color: grey;
+    background-color: gray;
 }
 
 .container-column {
