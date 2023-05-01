@@ -95,9 +95,9 @@ ul {
     flex-direction: column;
     height: 400px;
     padding: 0 130px;
-    justify-content: center;
+    padding-top: 40px;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .info-header {
@@ -108,14 +108,16 @@ ul {
 .item-container {
     border: solid black;
     display: flex;
-
+    gap: 50px;
+    
 }
 
 .item {
     border: solid black;
+    width: 150px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    flex: none;
     align-items: center;
     text-align: center;
     gap: 8px;
@@ -123,8 +125,8 @@ ul {
 
 .image {
     border: solid #3882F6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex: none;
 }
