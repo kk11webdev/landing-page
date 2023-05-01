@@ -131,5 +131,29 @@ ul {
     flex: none;
 }
 
+.container-quote {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 0 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
+.quote {
+    font-size: 30px;
+    width: 680px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    border: solid black;
+    font-size: 20px;
+    width: 680px;
+    font-weight: bolder;
+    text-align: end;
+}
 
